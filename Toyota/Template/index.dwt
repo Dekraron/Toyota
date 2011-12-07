@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/s3Slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider1').s3Slider({
+            timeOut: 4000 
+        });
+    });
+</script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/SlideShow.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-color: #CCC;
+}
+</style>
+</head>
+
+<body>
+<div align="center">
+<table width="950" height="150"border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">HEAD</td>
+  </tr>
+</table>
+<table width="950" height="350" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">Slide Show
+    	<div id="slider1" align="center">
+        <ul id="slider1Content">
+            <li class="slider1Image">
+                <a href=""><img src="../images/1.jpg" alt="1" width="940"/></a>
+                <span class="left"><strong>Title text 1</strong><br />Content text...</span></li>
+            <li class="slider1Image">
+                <a href=""><img src="../images/2.jpg" alt="2" width="940"/></a>
+                <span class="right"><strong>Title text 2</strong><br />Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...</span></li>
+            <li class="slider1Image">
+                <img src="../images/3.jpg" alt="3" width="940"/>
+                <span class="right"><strong>Title text 2</strong><br />Content text...</span></li>
+            <li class="slider1Image">
+                <img src="../images/4.jpg" alt="4" width="940"/>
+                <span class="left"><strong>Title text 2</strong><br />Content text...</span></li>
+            <li class="slider1Image">
+                <img src="../images/5.jpg" alt="5" width="940"/>
+                <span class="right"><strong>Title text 2</strong><br />Content text...</span></li>
+            <div class="clear slider1Image"></div>
+        </ul>
+    </div>
+    </td>
+  </tr>
+</table>
+<table width="950" height="300" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">Promotion</td>
+  </tr>
+</table>
+<table width="950" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="316">NEW</td>
+    <td align="center" width="316">Activity</td>
+    <td align="center" width="316">Link</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
