@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/s3Slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider1').s3Slider({
+            timeOut: 4000 
+        });
+    });
+</script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/SlideShow.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-color: #CCC;
+}
+</style>
+</head>
+
+<body>
+<div align="center">
+<table width="950" height="150"border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">HEAD</td>
+  </tr>
+</table>
+<table width="950" height="350" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+    <!-- TemplateBeginEditable name="SlideShow" -->
+    
+    <!-- TemplateEndEditable -->
+    </td>
+  </tr>
+</table>
+<table width="950" height="300" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+    <!-- TemplateBeginEditable name="Promotion" -->
+    Promotion
+    <!-- TemplateEndEditable -->
+    </td>
+  </tr>
+</table>
+<table width="950" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="316">
+    <!-- TemplateBeginEditable name="NEW" -->
+    	NEW
+    <!-- TemplateEndEditable -->
+    </td>
+    <td align="center" width="316">
+    <!-- TemplateBeginEditable name="Activity" -->
+    	Activity
+    <!-- TemplateEndEditable -->  
+    </td>
+    <td align="center" width="316">
+    <!-- TemplateBeginEditable name="Link" -->
+    	Link
+    <!-- TemplateEndEditable -->
+    </td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
